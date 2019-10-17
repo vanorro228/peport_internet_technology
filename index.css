@@ -1,4 +1,4 @@
-h1{
+.h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
    background-color:"yellow";
 }
@@ -6,4 +6,9 @@ h1{
    weight:400px;
    height:200px;
    background-color: "grey";
+}
+.div2 {
+   weight:400px;
+   height:200px;
+   background-color: "red";
 }
