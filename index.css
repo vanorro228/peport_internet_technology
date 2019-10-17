@@ -1,14 +1,17 @@
-.h1{
+h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
 }
 .div1 {
    weight:400px;
    height:200px;
    background-color: #7FFFD4;
+   border-top:1px solid #9EC1D4;
+border-bottom: dotted 1px #9EC1D4;
+padding-left:10px"
 }
 .div2 {
    weight:400px;
    height:200px;
    background-color: #40E0D0;
 }
- 
+
