@@ -1,8 +1,9 @@
 h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
    background-color: #808080;
-   text-shadow: red 1px 1px 0, red -1px -1px 0, 
-                 red -1px 1px 0, red 1px -1px 0;
+  -moz-text-shadow:0 0 10px #c00; 
+   -webkit-text-shadow:0 0 10px #c00;
+   text-shadow:0 0 10px #c00;
 }
 .div1 {
    weight:300px;
