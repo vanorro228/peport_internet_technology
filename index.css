@@ -1,8 +1,9 @@
 h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
+    background-color:"yellow";
 }
 .div1 {
-   weight:500px;
-   height: 300px;
+   weight:400px;
+   height: 200px;
    background-color:"grey";
 }
