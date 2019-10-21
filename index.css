@@ -1,6 +1,6 @@
 html{
-	   background: #000 url(image.gif) 
-        repeat: round;
+	   background-image:url(image.gif);
+        background-repeat: space;
 }
 h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
