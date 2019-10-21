@@ -2,7 +2,9 @@ html{
 	   background-image:url(image.gif);
 	   background-repeat: repeat;
 }
-р4
+р4{
+    text-shadow: #FFFFFF 0 0 10px; /* Свечение голубого цвета */
+}
 h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
    background-color: #E6E6FA;
