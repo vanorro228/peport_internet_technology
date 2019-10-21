@@ -1,3 +1,7 @@
+html{
+	   background: #000 url(image.gif) 
+          no-repeat right bottom
+}
 h1{
    box-shadow: 0 0 5px rgba(0,0,0,0.8); 
    background-color: #E6E6FA;
