@@ -15,6 +15,7 @@ h1{
 	-moz-box-shadow: 0px 0px 10px #ddd;
 	-webkit-box-shadow: 0px 0px 10px #ddd;
  	background-color: #7FFFD4;
+	box-shadow: 0 0 5px 2px;
 }
 .div2 {
    	width: 750px;
@@ -26,6 +27,7 @@ h1{
 	-moz-box-shadow: 0px 0px 10px #ddd;
 	-webkit-box-shadow: 0px 0px 10px #ddd;
  	background-color: #40E0D0;
+	box-shadow: 0 0 5px 2px;
 }
 .div3 {	width: 750px;
 	margin: 25px auto;
@@ -36,5 +38,6 @@ h1{
 	-moz-box-shadow: 0px 0px 10px #ddd;
 	-webkit-box-shadow: 0px 0px 10px #ddd;
  	background-color: #00CED1;
+	box-shadow: 0 0 5px 2px;
 } 
  
