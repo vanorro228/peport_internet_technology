@@ -10,16 +10,16 @@ h1{
    text-shadow:0 0 10px #c00;
 }
 .div1 {
-  width: 1000px;
-	margin: 20px auto;
+  width: 750px;
+	margin: 25px auto;
 	border: 3px solid #d1d1d1;
-	padding: 2%;
+	padding: 4%;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-box-shadow: 0px 0px 10px #ddd;
 	-webkit-box-shadow: 0px 0px 10px #ddd;
  	background-color: #7FFFD4;
-	box-shadow: 0 0 5px 2px;
+	box-shadow: 0 0 5px 3px yellow;
 }
 .div2 {
    	width: 750px;
@@ -31,7 +31,7 @@ h1{
 	-moz-box-shadow: 0px 0px 10px #ddd;
 	-webkit-box-shadow: 0px 0px 10px #ddd;
  	background-color: #40E0D0;
-	box-shadow: 0 0 5px 2px;
+	box-shadow: 0 0 5px 3px yellow;
 }
 .div3 {	width: 750px;
 	margin: 25px auto;
@@ -42,6 +42,6 @@ h1{
 	-moz-box-shadow: 0px 0px 10px #ddd;
 	-webkit-box-shadow: 0px 0px 10px #ddd;
  	background-color: #00CED1;
-	box-shadow: 0 0 5px 2px;
+	box-shadow: 0 0 5px 3px yellow;
 } 
  
