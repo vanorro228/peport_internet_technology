@@ -31,13 +31,335 @@
    </ul></h3>
  </div>
   <div class="div3">
-   <h2>Отчёт по лабораторной работе №3 по теме "Построение сетей в среде моделирования Cisco Packet Tracer"</h2>
-  <h3> <em>В ходе лабораторной работы быди выполнены следующие задачи:</em>
-   <ul>
-    <li>Сети</li>
-    <li>ОСИ, ТИСИПИ АЙПИ</li>
-    <li>Роутеры, свитчи и т.п.</li>
-   </ul></h3>
+  <div class="main_box">
+    <h1 align="center">Лабораторная работа №3</h1>
+	<h2 align="center">Настройка коммутаторов и маршрутизаторов.</h2> 
+	<br>
+<h6>
+    Исходные данные:
+</h6>
+<br>
+<table border="1" align="center">
+    <tbody>
+        <tr bgcolor="lavender">
+            <td width="156">
+            </td>
+            <td width="156">
+                <p align="center">
+                    LAN A
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    LAN B
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    LAN C
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="honeydew">
+            <td width="156">
+                <p align="center">
+                    Количество узлов
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    400
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    900
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    3000
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="lavender">
+            <td width="156">
+                <p align="center">
+                    Маска
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    /23
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    /22
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    /20
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="honeydew">
+            <td width="156">
+                <p align="center">
+                    Subnet
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.12.0
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.12.0
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.0.0
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="lavender">
+            <td width="156">
+                <p align="center">
+                    IP адрес первого хоста
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.12.1
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.12.1
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.0.1
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="honeydew">
+            <td width="156">
+                <p align="center">
+                    IP адрес последнего хоста
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.13.254
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.15.254
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.15.254
+                </p>
+            </td>
+        </tr>
+        <tr bgcolor="lavender">
+            <td width="156">
+                <p align="center">
+                    Broadcast
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    192.168.13.255
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    172.16.15.255
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    10.10.15.255
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<p>
+
+    1) Разместить на рабочем поле коммутатор и два компьютера, соединить их.
+</p>
+<p align="center">
+    <img src="images/pic1.png"/>
+</p>
+<br>
+<p>
+
+    2) Настроить адресацию в созданной подсети.
+
+<p>
+    3) Добавить на рабочее поле еще один коммутатор с двумя компьютерами, соединить и настроить адресацию в новой подсети.
+	
+</p>
+<p align="center">
+   <img src="images/pic2.png"/>
+</p>
+
+<p>
+
+    4) Соединить коммутаторы между собой, проверить работоспособность сети.
+</p>
+<p align="center">
+    <img src="images/pic3.png"/>
+</p>
+<p>
+    Сеть неработоспособна, т.к. в сетях А и В используется разная адресация. Для
+    корректной работы сети необходимо использовать маршрутизатор.
+</p>
+<p>
+    5) Добавить маршрутизатор на рабочее поле.
+</p>
+<p align="center">
+   <img src="images/pic4.png"/>
+</p>
+
+<p>
+    6) Добавить на рабочее поле еще один маршрутизатор, подключить к нему
+    коммутатор и компьютер.
+</p>
+<p>
+    7) Настроить статическую маршрутизацию в спроектированной сети:
+</p>
+<div align="center">
+    <table border="1">
+        <tbody>
+            <tr bgcolor="honeydew">
+                <td width="208">
+                    <p align="center">
+                        Устройство
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        IP
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        Маска
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lavender">
+                <td width="208">
+                    <p align="center">
+                        Router0 FastEthernet 0/0
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        192.168.12.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.254.0
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="honeydew">
+                <td width="208">
+                   <p align="center">
+                        Router0 FastEthernet 0/1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        172.16.12.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.252.0
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lavender">
+                <td width="208">
+                    <p align="center">
+                        Router0 FastEthernet 0/2
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        15.15.12.2
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.255.252
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="honeydew">
+                <td width="208">
+                    <p align="center">
+                        Router1 FastEthernet 0/1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        10.10.0.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.40.0
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lavender">
+                <td width="208">
+                    <p align="center">
+                        Router2 FastEthernet 0/2
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        15.15.12.1
+                    </p>
+                </td>
+                <td width="208">
+                    <p align="center">
+                        255.255.255.252
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<p align="center">
+    <img src="images/pic5.png"/>
+</p>
+<p>
+    8) Установить баннеры: для установки баннера воспользоваться командой: banner motd [название баннера]</p>
+						
+              
+                  </div>
+ </div>                   
+                    </div>
+</h3>
  </div>
  <h4 align='right'><font face='Impact'><b>Отчёт подготовил студент группы ИДМ 19-02 Титоренко Иван</b></font></h4>
 </body>
